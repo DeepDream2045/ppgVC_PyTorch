@@ -61,7 +61,6 @@ def process_one(
         return
     np.save(save_fname, f0, allow_pickle=False)
 
-
 def run(args):
     """Compute merged f0 values."""
     output_dir = args.output_dir

@@ -51,9 +51,10 @@ if __name__ == "__main__":
     
     split_list = ['train-clean-100', 'train-clean-360']
 
-    # sub_folder_list = os.listdir(args.in_dir)
-    # sub_folder_list.sort()
-    
+    '''
+    sub_folder_list = os.listdir(args.in_dir)
+    sub_folder_list.sort()
+    '''
     args.num_workers = args.num_workers if args.num_workers is not None else cpu_count()
     print("Number of workers: ", args.num_workers)
     ckpt_step = os.path.basename(args.spk_encoder_ckpt).split('.')[0].split('_')[-1]

@@ -13,3 +13,4 @@ if [ -e "${PRJ_ROOT}/tool/venv/bin/activate" ]; then
 export OMP_NUM_THREADS=1
 export PYTHONIOENCODING=UTF-8
 export MPL_BACKEND=Agg
+
