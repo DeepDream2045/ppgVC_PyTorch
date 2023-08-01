@@ -3,7 +3,7 @@ from typing import Tuple
 import torch
 
 from .nets_utils import make_pad_mask
-
+ 
 
 class UtteranceMVN(torch.nn.Module):
     def __init__(

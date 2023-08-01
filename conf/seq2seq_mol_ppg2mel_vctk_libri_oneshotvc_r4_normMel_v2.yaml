@@ -10,7 +10,7 @@ data:
   vctk_wav_dir: "/home/shaunxliu/data/vctk/wav_mono_24k_16b_norm-6db"
   libri_wav_dir: "/home/shaunxliu/data/LibriTTS/LibriTTS/train-wavs-clean460/"
   vctk_spk_dvec_dir: "/home/shaunxliu/data/vctk/GE2E_spkEmbed_step_5805000_perSpk"
-  libri_spk_dvec_dir: "/home/shaunxliu/data/LibriTTS/GE2E_spkEmbed_step_5805000_perSpk"
+  libri_spk_dvec_dir: "/home/shaunxliu/data/LibriTTS/GE2E_spkEmbed_step_5805000_perSpk" 
   ppg_file_ext: "ling_feat.npy"
   f0_file_ext: "f0.npy"
   wav_file_ext: "wav"

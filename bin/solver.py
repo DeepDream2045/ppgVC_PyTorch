@@ -11,7 +11,7 @@ from src.util import human_format, Timer
 from utils.load_yaml import HpsYaml
 
 
-class BaseSolver():
+class BaseSolver(): 
     ''' 
     Prototype Solver for all kinds of tasks
     Arguments

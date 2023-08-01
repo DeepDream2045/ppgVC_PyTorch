@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 from .nets_utils import make_pad_mask
 
-
+ 
 class MaskedMSELoss(nn.Module):
     def __init__(self, frames_per_step):
         super().__init__()

@@ -83,3 +83,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     kwargs = vars(args)
     compute_bnf(**kwargs)
+

@@ -9,7 +9,7 @@ def load_hparams(filename):
         for k, v in doc.items():
             hparams_dict[k] = v
     return hparams_dict
-
+ 
 def merge_dict(user, default):
     if isinstance(user, dict) and isinstance(default, dict):
         for k, v in default.items():

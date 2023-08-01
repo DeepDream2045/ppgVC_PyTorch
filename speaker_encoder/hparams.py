@@ -8,7 +8,7 @@ mel_n_channels = 40
 sampling_rate = 16000
 # Number of spectrogram frames in a partial utterance
 partials_n_frames = 160     # 1600 ms
-
+ 
 
 ## Voice Activation Detection
 # Window size of the VAD. Must be either 10, 20 or 30 milliseconds.
